@@ -11,6 +11,8 @@ module.exports = {
     author: 'Robin Kammerlander'
   },
   plugins: [
+    `gatsby-plugin-react-head`,
+    `gatsby-plugin-react-helmet`, 
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-contentful',
