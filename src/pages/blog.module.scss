@@ -7,22 +7,25 @@
     margin: 1rem 0;
 
     a {
-        background: black;
+        background: rgb(84, 84, 84);
         display: block;
         padding: 1rem;
         text-decoration: none;
+       // border-radius: 10px 10px 10px 10px;
+       // overflow:hidden;
     }
 
     a:hover {
-        background: black;
+        background: rgb(31, 31, 31);
     }
 
     h2 {
         margin-bottom: 0;
+        color: white;
     }
 
     p {
-        color: chocolate;
+        color: white;
         font-size: .8rem;
         font-style: italic;
     }

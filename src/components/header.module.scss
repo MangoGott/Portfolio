@@ -1,3 +1,16 @@
+//Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Permanent+Marker&display=swap');
+
+
+//Font Variables 
+$permanent-marker: 'Permanent Marker', cursive;
+$baumans: 'Baumans', cursive;  
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: black;
+
+
+//Styles
 .header {
     padding: 1rem 0 3rem;
 }
@@ -6,12 +19,14 @@
     color: #000000;
     font-size: 3rem;
     text-decoration: none;
+    font-family: $permanent-marker;
 }
 
 .nav-list {
     display: flex;
     list-style-type: none;
     margin: 0;
+    
 }
 
 .nav-item{
@@ -21,10 +36,10 @@
     text-decoration: none;
 }
 
-.nav-item:hover {
-    color: red;
+.active-nav-item {
+    color: black;
 }
 
-.active-nav-item {
-    color: royalblue;
+.nav-item:hover {
+    color: black;
 }
