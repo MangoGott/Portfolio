@@ -14,6 +14,7 @@ const Header = () => {
    `)
 
     return (
+    <div className={headerStyles.rowTime}>
         <header className={headerStyles.header}>
             <h1>
                 < Link className={headerStyles.title} to='/'>
@@ -29,6 +30,7 @@ const Header = () => {
                 </ul>
             </nav>
         </header>
+    </div>  
     )
 }
 

@@ -1,13 +1,14 @@
 ---
 title: "Son of Better Call Saul"
 date: "39/10/2022"
+featuredImage: img/cool.jpg
 ---
 
 Better Call Son of Saul - Bra film 9/10
 
 JAG SKA DO ADKGK Dk 
 
-![Cool](img/cool.jpg)
+![Cool](img/cool1.jpg)
 
 ## Topics Covered 
 

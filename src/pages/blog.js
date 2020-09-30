@@ -1,39 +1,38 @@
 import React from 'react'
 import {graphql, Link, useStaticQuery} from 'gatsby'
+import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import blogStyles from './blog.module.scss'
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
-    query {
-        allMarkdownRemark {
-            edges {
-                node {
-                    frontmatter {
-                        title
-                        date
+    query{
+        allMarkdownRemark{
+          edges{
+            node {
+            html
+              frontmatter{
+                title
+                date
+                featuredImage {
+                    relativePath
+                    childImageSharp {
+                      fixed(width: 120) {
+                        ...GatsbyImageSharpFixed_withWebp
+                      }
                     }
-                    fields {
-                        slug
-                    }
-                }
+                  }
+              }
+              fields{
+                slug
+              }
             }
+          }
         }
-    }
+      }
     `)
-
-    const query = (graphql`
-    query($slug: String!) {
-        markdownRemark(fields: { slug: { eq: $slug} }) {
-                frontmatter {
-                    title
-                    date
-                }
-                html
-            }
-        }
-    `)
+    
     //console.log("HEJ MANNEN")
     //console.log(data.allMarkdownRemark.edges[0].node.frontmatter.title)
     return (
@@ -45,7 +44,8 @@ const BlogPage = () => {
                         <li className={blogStyles.post}>
                             <Link to={`/blog/${edge.node.fields.slug}`}>
                             <h2>{edge.node.frontmatter.title}</h2>
-                            <p>{edge.node.frontmatter.date}</p>
+                            <p>{edge.node.frontmatter.date}</p>   
+                            <Img fixed={edge.node.frontmatter.featuredImage.childImageSharp.fixed}/>
                             </Link>
                         </li>
                     )
@@ -56,3 +56,5 @@ const BlogPage = () => {
 }
 
 export default BlogPage
+
+//<p>{edge.node.featuredImage.relativePath}</p>

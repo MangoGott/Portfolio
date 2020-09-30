@@ -5,3 +5,16 @@ gatsbymd -> gatsby -> /blog/gatsby
 GOAL 2 - Generate blog post page template
 
 GOAL 3 - Generate a new page for each post
+
+
+query{
+  markdownRemark{
+    frontmatter{
+      title
+      date
+      featuredImage {
+        relativePath
+      }
+  }
+}
+}

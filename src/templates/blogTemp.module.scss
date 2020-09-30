@@ -1,0 +1,33 @@
+.posts {
+    list-style-type: none;
+    margin: 0;
+    background-color: blueviolet;
+}
+
+.post {
+    margin: 1rem 0;
+
+    a {
+        background: rgb(84, 84, 84);
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+       // border-radius: 10px 10px 10px 10px;
+       // overflow:hidden;
+    }
+
+    a:hover {
+        background: rgb(31, 31, 31);
+    }
+
+    h2 {
+        margin-bottom: 0;
+        color: white;
+    }
+
+    p {
+        color: white;
+        font-size: .8rem;
+        font-style: italic;
+    }
+}

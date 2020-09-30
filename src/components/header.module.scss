@@ -13,6 +13,9 @@ $primary-color: black;
 //Styles
 .header {
     padding: 1rem 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .title {
