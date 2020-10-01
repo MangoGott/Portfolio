@@ -6,7 +6,7 @@ featuredImage: img/arg.jpg
 
 I did nothing today, except follow this tutorial and work out. 
 
-![Boat](img/boat.png)
+![Arg](img/arg.jpg)
 
 
 ## Topics Covered 

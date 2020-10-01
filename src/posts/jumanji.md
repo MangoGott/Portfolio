@@ -6,3 +6,5 @@ featuredImage: img/sad.jpg
 
 In this post you'll learn React.
 
+![Sad](img/sad.jpg)
+

@@ -6,3 +6,4 @@ featuredImage: img/boat.png
 
 In this post you'll learn React.
 
+![Boat](img/boat.png)

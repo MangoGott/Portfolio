@@ -2,9 +2,12 @@ import React from 'react'
 import {graphql, Link, useStaticQuery} from 'gatsby'
 import Img from 'gatsby-image'
 import { LoremIpsum } from 'react-lorem-ipsum';
+import Head from '../components/head'
+
 
 import Layout from '../components/layout'
 import blogStyles from './blog.module.scss'
+
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
@@ -17,7 +20,7 @@ const BlogPage = () => {
                 date
                 featuredImage {
                     childImageSharp {
-                      fixed(width: 200) {
+                      fixed(width: 250) {
                         ...GatsbyImageSharpFixed_withWebp
                       }
                     }
@@ -36,6 +39,7 @@ const BlogPage = () => {
     //console.log(data.allMarkdownRemark.edges[0].node.frontmatter.title)
     return (
         <Layout>
+            <Head title="Blog"/>
             <h1>Blog</h1>
             <ol className={blogStyles.posts}>
                 {data.allMarkdownRemark.edges.map((edge) => {
