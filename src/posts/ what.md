@@ -8,7 +8,7 @@ Better Call Son of Saul - Bra film 9/10
 
 JAG SKA DO ADKGK Dk 
 
-![Cool](img/cool1.jpg)
+![Cool](img/cool.jpg)
 
 ## Topics Covered 
 

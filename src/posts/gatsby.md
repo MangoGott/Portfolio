@@ -1,7 +1,7 @@
 ---
 title: "My portfolio is in progress"
 date: "18/09/2020"
-featuredImage: img/boat.png
+featuredImage: img/arg.jpg
 ---
 
 I did nothing today, except follow this tutorial and work out. 
