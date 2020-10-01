@@ -1,6 +1,7 @@
 import React from 'react'
 import {graphql, Link, useStaticQuery} from 'gatsby'
 import Img from 'gatsby-image'
+import { LoremIpsum } from 'react-lorem-ipsum';
 
 import Layout from '../components/layout'
 import blogStyles from './blog.module.scss'
@@ -11,14 +12,12 @@ const BlogPage = () => {
         allMarkdownRemark{
           edges{
             node {
-            html
               frontmatter{
                 title
                 date
                 featuredImage {
-                    relativePath
                     childImageSharp {
-                      fixed(width: 120) {
+                      fixed(width: 200) {
                         ...GatsbyImageSharpFixed_withWebp
                       }
                     }
@@ -41,11 +40,29 @@ const BlogPage = () => {
             <ol className={blogStyles.posts}>
                 {data.allMarkdownRemark.edges.map((edge) => {
                     return (
-                        <li className={blogStyles.post}>
+                        <li className={blogStyles.total}>
+                            
                             <Link to={`/blog/${edge.node.fields.slug}`}>
-                            <h2>{edge.node.frontmatter.title}</h2>
-                            <p>{edge.node.frontmatter.date}</p>   
-                            <Img fixed={edge.node.frontmatter.featuredImage.childImageSharp.fixed}/>
+                                                          
+                              <div>
+                                <h2>{edge.node.frontmatter.title}</h2>
+                                <p>{edge.node.frontmatter.date}</p>  
+                              </div>
+
+                              <div className={blogStyles.post}>
+
+                                  <LoremIpsum p={1} />
+
+                                  <div className={blogStyles.featuredImage}>                        
+                                      <Img 
+                                        fixed={edge.node.frontmatter.featuredImage.childImageSharp.fixed}
+                                      />
+                                  </div>
+
+                              </div>
+
+                            
+
                             </Link>
                         </li>
                     )
