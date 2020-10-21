@@ -1,15 +1,26 @@
 .posts {
     list-style-type: none;
     margin: 0;
-    background-color: blueviolet;
+    text-decoration: none;
+    //background-color: blueviolet;
+    color: grey; 
 }
 
-.post {
+.header {
+    
+    a:hover {
+        color: black;
+    }
+}
+
+.body {
+
     margin: 1rem 0;
+    padding: 1rem;
+    //background-color: red;
+
 
     a {
-        background: rgb(84, 84, 84);
-        display: block;
         padding: 1rem;
         text-decoration: none;
        // border-radius: 10px 10px 10px 10px;
@@ -17,17 +28,34 @@
     }
 
     a:hover {
-        background: rgb(31, 31, 31);
+        background: pink;
     }
 
     h2 {
         margin-bottom: 0;
-        color: white;
     }
-
     p {
-        color: white;
         font-size: .8rem;
-        font-style: italic;
+        //font-style: italic;
+    }
+    
+    img {        
+        //border: 5px solid #555;
+    }
+}
+
+.return {
+    
+    margin: 1rem 0;
+    padding: 1rem;
+
+    a {
+    font-size: 2rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: grey;
+    }
+    a:hover {
+        color: black;
     }
 }

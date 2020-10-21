@@ -9,4 +9,12 @@ $baumans: 'Baumans', cursive;
 .footer {
     margin-top: 3rem;
     //font-family: $baumans;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 50vh 0 50vh rgb(245, 245, 245);
+}
+
+.content {
+    padding-top: 1rem;
 }
