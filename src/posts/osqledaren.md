@@ -1,5 +1,5 @@
 ---
-title: "Editor In Cheif - Osqledaren​"
+title: "Editor In Chief - Osqledaren​"
 date: "22/05/2020"
 featuredImage: img/osqledaren/ol.png
 ---
