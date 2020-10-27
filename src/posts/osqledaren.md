@@ -4,10 +4,18 @@ date: "22/05/2020"
 featuredImage: img/osqledaren/ol.png
 ---
 
-**Motion capture systems are becoming more common within the entertainment industry, used for capturing actor’s movements and performances for animation purposes. However, the empty setting in which these performances take place differ a lot from traditional acting scenarios usually comprised of detailed sets, costumes and props. The main challenges actors face is the mental work required to visualize an environment or characters that is not physically there. Furthermore, without proper reference it is difficult to find the right natural movements for one’s differently proportioned character, as well as acting towards such a character.**
+**As editor-in-chief, I overlooked the production of “Osqledaren”. A magazine published four times a year, 12 000 copies each edition, mainly targeted at students. My editorial staff consisted of 32 driven students who together with me produced articles, films, podcasts and much more. I also worked a lot with digitizing the magazine by further developing our website osqledaren.se and by expanding our reach on social media.**
 
-By constructing a system utilizing virtual reality (VR) headsets in combination with motion capture technology, the goal was to bring both the environments and characters into the live performance. The evaluation was conducted by letting two actors at a time perform a scene in both the traditional setup and the VR setup. It was decided to measure their over all sense of embodiment as many of the underlying elements align with immersive qualities. This includes measuring their sense of presence, agency, and their connection to their character but also their acting partner’s character. Qualitative data was gathered through postperformance interviews and a questionnaire where participants rated different statements related to the sense of embodiment using a 5-point Likert scale.
+Starting out at Osqledaren, I was responsible for the development of a new branch aimed at producing media content for the internet. This included different film projects (on-the-street interviews as well as more serious sit-downs with more important guests), but more importantly different podcast productions. Through the years, I’ve been at both ends of the production pipeline. As the interviewer, editor, and in later years, as the producer over-looking and organizing other people’s projects.
 
-The final results implies that the VR system improves some aspects associated with embodiment in comparison to the traditional setup. This in turn changed the way the participants performed the scenes. The majority stated that they had an easier time of portraying their characters when in VR. From the interviews conducted it seemed that the participants had a easier time playing towards the environment, as well as towards their acting partner, due to them being able to play off and react to things they could actually observe.
+In 2017, I worked my way up to become the editor-in-chief and publisher of the magazine. A full-time job I carried out for two years. With an editorial staff of around 30 people. During these years I was not only organizing brainstorming sessions with the whole staff but also producing articles of my own (including editorials). What I loved the most was guiding my writers (including English writers), illustrators, and photographers to find the right angle to their stories. This includes contacting and booking interviews with leads, applying for press accreditation, and proof-reading every article. 
+
+Daily tasks included management of a voluntarily committed editorial staff (~30 students), a fair share of my own journalistic production, layout, budget & economic responsibility, and more.
+
+The last story I wrote for the magazine took me on a two-day trip following a student-orchestra to a music festival. I conducted hours of interviews, resulting in even more hours spent transcribing. One thing I truly enjoyed was sifting through all the recorded content, slowly piecing it together and figuring out what best fit the story I was writing. 
+
+The published work (17-18, 19-20) I oversaw can be found here: [Osqledaren](https://issuu.com/osqledaren)
+
+
 
 ![Comparison](img/arg.jpg)

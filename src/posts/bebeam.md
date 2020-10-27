@@ -12,6 +12,7 @@ The project aimed to produce an engaging AR experience with state of the art co-
 We want to make interactions in AR as seamless as possible and give multimodal feedback. The latter to such a degree that it makes text and oral instructions redundant.
 
 Visit the projectpage: [BeBeam](https://kasperii.github.io/beBeam/)
+or download the game here: [beBeam.apk](https://github.com/kasperii/beBeam/raw/master/beBeam.apk)
 
 `vimeo: [beBeam] https://vimeo.com/298049909`
 
