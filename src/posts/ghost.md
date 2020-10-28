@@ -1,6 +1,6 @@
 ---
 title: "GhostHuntAR"
-date: "14/30/2018"
+date: "10/03/2018"
 featuredImage: img/ghost/ghost2.png
 ---
 
