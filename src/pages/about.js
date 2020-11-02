@@ -23,7 +23,7 @@ const AboutPage = () => {
             <p>
             I have experience with developing for both front- and backend, but I have also constructed more conceptual VR/AR projects throughout the years. 
             Apart from my technical background, I possess great leadership skills bringing mixed competencies together, as well as design and layout (both in digital and printed form). 
-            All these skills came to use during my two years as Editor in Chief for the magazine Osqledaren. 
+            All these skills came to excellent use during my two years as Editor in Chief for the magazine Osqledaren. 
             </p>
             <p> 
             When I'm not coding, I freelance on various creative projects. Most recently, I was payed to record several motion capture performances, film a remote segment i Göteborg for SweClockers, as well as cover different events.  

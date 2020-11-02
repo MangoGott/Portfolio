@@ -19,7 +19,7 @@ return (
             <div className={indexStyles.topLeft}>
               
               <p><span> 
-                Software engineer who thrive at the intersection of creative and tech-oriented work.
+                Software engineer who thrives at the intersection of creative and tech-oriented work.
                 Always aiming to improve and further develop my abilities. 
               </span></p>              
             </div>       
