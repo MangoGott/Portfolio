@@ -1,11 +1,17 @@
 .container {
     display: flex;
     flex-direction: row;
+    
 }
 
 .item {
     display: flex;
     
+}
+
+h1{
+    //    font-family: 'Roboto Mono', monospace; 
+
 }
 
 .posts {
@@ -121,6 +127,11 @@
     display: flex;
     flex-direction: column;
     padding-top: 1rem;
+}
+
+.category {
+    
+    bottom: 0;
 }
 /* //För snygg text med bakgrund över bilden. 
 .text span {

@@ -1,27 +1,35 @@
 import React from 'react'
-import ImageFadeIn from "react-image-fade-in";
+import Img from 'gatsby-image'
+import {graphql, useStaticQuery} from 'gatsby'
 
 
 import Layout from '../components/layout'
 import Head from '../components/head'
 import indexStyles from './index.module.scss'
+import picture from './img/profile.jpg'
 
 const IndexPage = () => {
 
-  const boat = require('./img/boat.png')
-
-  return (
+return (
       <Layout>
         <Head title="Home"/>
-        <div className={indexStyles.container}>
-            <ImageFadeIn src={boat} />
-            
+        <div className={indexStyles.container}>            
+              <img className={indexStyles.picture} src={picture}/>
+
             <div className={indexStyles.topLeft}>
-              <h1>Consectetur adipiscing,</h1>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit! </h2>
-            </div>
-            
+              
+              <p><span> 
+                Software engineer with both a bachelor and master’s in computer science.  
+                I thrive in the cross-section between creative and tech-oriented work.
+                Always aiming to improve and further develop my abilities. 
+              </span></p>              
+            </div>       
+
+            <h1>Robin Kammerlander</h1>
+     
         </div>
+
+
       </Layout>
   )
 

@@ -9,6 +9,7 @@ $baumans: 'Baumans', cursive;
 .footer {
     margin-top: 3rem;
     //font-family: $baumans;
+    font-family: 'Roboto Mono', monospace; 
     display: grid;
     grid-template-rows: auto 1fr auto;
     background-color: rgb(245, 245, 245);

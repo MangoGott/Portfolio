@@ -57,7 +57,6 @@ const ProjectsPage = () => {
     objectFit="contain" fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
                               </div>
 
-
                               <div className={blogStyles.text}>    
                                       <h2> <span> {edge.node.frontmatter.title} </span> </h2>
                                       <p> <span> {edge.node.frontmatter.date} </span> </p>

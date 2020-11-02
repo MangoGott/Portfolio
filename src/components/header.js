@@ -22,7 +22,11 @@ const Header = () => {
                 <div className={headerStyles.title}>   
                     <h1>
                         <Link to='/'>
-                            {data.site.siteMetadata.title} 
+                            {/*
+                            <img width={20} src={require('../img/booklet-icon.png')}/>
+                            */}
+                            {data.site.siteMetadata.title}                             
+                            
                         </Link>
                     </h1>
                 </div>
