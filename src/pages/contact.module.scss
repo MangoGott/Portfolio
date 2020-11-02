@@ -1,0 +1,19 @@
+//Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap');
+
+
+//Font Variables 
+$permanent-marker: 'Permanent Marker', cursive;
+$baumans: 'Baumans', cursive;  
+
+.body {
+
+    p { 
+        font-family: 'Roboto Mono', courier; 
+    }
+
+    h2 {
+    font-family: $permanent-marker;
+    }
+}

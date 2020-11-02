@@ -19,8 +19,7 @@ return (
             <div className={indexStyles.topLeft}>
               
               <p><span> 
-                Software engineer with both a bachelor and master’s in computer science.  
-                I thrive in the cross-section between creative and tech-oriented work.
+                Software engineer who thrive at the intersection of creative and tech-oriented work.
                 Always aiming to improve and further develop my abilities. 
               </span></p>              
             </div>       
