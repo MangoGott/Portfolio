@@ -14,7 +14,7 @@ return (
       <Layout>
         <Head title="Home"/>
         <div className={indexStyles.container}>            
-              <img className={indexStyles.picture} src={picture}/>
+              <img className={indexStyles.picture} src={picture} alt="The only good picture of me"/>
 
             <div className={indexStyles.topLeft}>
               
