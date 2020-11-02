@@ -19,6 +19,8 @@ const AboutPage = () => {
             Currently, I’m part of a virtual production-research project at The Royal Institute of Technology in collaboration with Stockholm University of the Arts and Konstfack. 
             Exploring the technologies revolving Motion Capture and Virtual Reality. 
             I’m passionate about solving both technical and creative problems (luckily, they often coincide). The goal is to always face rewarding challenges. 
+            </p>
+            <p>
             I have experience with developing for both front- and backend, but I have also constructed more conceptual VR/AR projects throughout the years. 
             Apart from my technical background, I possess great leadership skills bringing mixed competencies together, as well as design and layout (both in digital and printed form). 
             All these skills came to use during my two years as Editor in Chief for the magazine Osqledaren. 
