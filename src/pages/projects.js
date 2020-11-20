@@ -1,7 +1,6 @@
 import React from 'react'
 import {graphql, Link, useStaticQuery} from 'gatsby'
 import Img from 'gatsby-image'
-import { LoremIpsum } from 'react-lorem-ipsum';
 import Head from '../components/head'
 
 
@@ -12,14 +11,15 @@ import blogStyles from './blog.module.scss'
 const ProjectsPage = () => {
     let data = useStaticQuery(graphql`
     query{
-        allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }
+        allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }
           ){
           edges{
             node {
-              excerpt(pruneLength: 200)
+              excerpt(pruneLength: 140)
               frontmatter{
                 title
                 date
+                categories
                 featuredImage {
                   childImageSharp{                  
                     fluid{
@@ -54,17 +54,32 @@ const ProjectsPage = () => {
                               
                               <div className={blogStyles.featuredImage}>
                                   <Img style={{ maxHeight: "130px"}}
-    objectFit="contain" fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
+                                       objectFit="contain" fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid}
+                                  />
                               </div>
 
                               <div className={blogStyles.text}>    
                                       <h2> <span> {edge.node.frontmatter.title} </span> </h2>
                                       <p> <span> {edge.node.frontmatter.date} </span> </p>
                                       <p>{edge.node.excerpt}</p>  
+                                      
+                                      <div className={blogStyles.categories}>
+                                          {edge.node.frontmatter.categories.map((category) => {
+                                              return (
+                                                <p>{category}</p>
+                                              )
+                                           })}
+
+                                      </div>
+                                      
                               </div>  
                             </div>
                             </Link>
+                            
                       </div>
+
+
+
 
                     )
                 })}

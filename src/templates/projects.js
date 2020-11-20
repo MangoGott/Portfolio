@@ -11,6 +11,7 @@ export const query = graphql`
             frontmatter {
                 title
                 date
+                categories
             }
             html
         }
@@ -24,12 +25,15 @@ const Projects = (props) => {
             <div className={blogTempStyles.header}>
                 <h1><Link className={blogTempStyles.posts} to='/projects'> {'Projects'}</Link>{ ' / ' + props.data.markdownRemark.frontmatter.title}</h1>
                 <p>{props.data.markdownRemark.frontmatter.date}</p>
+               
             </div>
            
             <div className={blogTempStyles.body} 
             dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html}}>
             </div>
             
+
+
             <div className={blogTempStyles.return}>
                 <Link to='/projects'> {'<<'} </Link>
             </div>

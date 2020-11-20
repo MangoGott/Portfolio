@@ -1,7 +1,8 @@
 ---
-title: "BeBeam"
+title: "beBeam"
 date: "22/10/2019"
 featuredImage: img/bebeam/beamert.jpg
+categories: ["C#", "unity","AR", "mobile dev"]
 ---
 
 **beBeam is an AR (augmented reality) game where your objective is to lead a light beam to hit a target. You do this by placing mirrors and reflecting it in the real world.**
@@ -11,9 +12,11 @@ In today's industry, AR is mostly used only as a complement or a gimmick in appl
 The project aimed to produce an engaging AR experience with state of the art co-op and effective tracking. We want to explore how shadows and reflections can enhance the user’s spatial awareness to the virtual objects. Also how different post-processing methods can enhance the light beam and the overall experience.
 We want to make interactions in AR as seamless as possible and give multimodal feedback. The latter to such a degree that it makes text and oral instructions redundant.
 
-Visit the projectpage: [BeBeam](https://kasperii.github.io/beBeam/)
-or download the game here: [beBeam.apk](https://github.com/kasperii/beBeam/raw/master/beBeam.apk)
+[BeBeam Project Site](https://kasperii.github.io/beBeam/)
 
-`vimeo: [beBeam] https://vimeo.com/298049909`
+***
+
+`vimeo: [beBeam - Making Of] https://vimeo.com/298049909#t=94s`
 
 ![beBeam Poster](img/bebeam/poster.png)
+

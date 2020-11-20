@@ -54,7 +54,7 @@ h1{
 
     a:hover {
     
-        background:pink;
+        background:lightgrey;
         -webkit-box-shadow: inset 2px 7px 7px 0px rgba(0,0,0,0.05);
     -moz-box-shadow: inset 2px 7px 7px 0px rgba(0,0,0,0.05);
     box-shadow: inset 2px 7px 7px 0px rgba(0,0,0,0.05);
@@ -76,7 +76,6 @@ h1{
 
     list-style-type: none;
     padding: .5rem .5rem .5rem .5rem;
-    //insert-ASS
     //background:rgb(84, 84, 84);
     //border-radius: 10px 10px 10px 10px;
     //overflow:hidden;
@@ -129,9 +128,26 @@ h1{
     padding-top: 1rem;
 }
 
-.category {
+.categories {
     
-    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    
+    p {
+        font-family: courier;
+
+        font-size: small;
+        color:white;
+        background-color: black;
+        padding: 3px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin: 5px;
+        border-radius: 0.3em;
+    }
 }
 /* //För snygg text med bakgrund över bilden. 
 .text span {

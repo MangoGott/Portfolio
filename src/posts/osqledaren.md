@@ -1,10 +1,13 @@
 ---
-title: "Editor In Chief - Osqledaren​"
+title: "Editor In Chief​"
 date: "22/05/2020"
 featuredImage: img/osqledaren/ol.png
+categories: ["project management", "writing", "editing", "design"]
 ---
 
-**As editor-in-chief, I overlooked the production of “Osqledaren”. A magazine published four times a year, 12 000 copies each edition, mainly targeted at students. My editorial staff consisted of 32 driven students who together with me produced articles, films, podcasts and much more. I also worked a lot with digitizing the magazine by further developing our website osqledaren.se and by expanding our reach on social media.**
+**As editor-in-chief for two years, I overlooked the production of “Osqledaren”. A magazine published four times a year, 12 000 copies each edition, mainly targeted at students.**
+
+My editorial staff consisted of 32 driven students who together with me produced articles, films, podcasts and much more. I also worked a lot with digitizing the magazine by further developing our website osqledaren.se and by expanding our reach on social media.
 
 Starting out at Osqledaren, I was responsible for the development of a new branch aimed at producing media content for the internet. This included different film projects (on-the-street interviews as well as more serious sit-downs with more important guests), but more importantly different podcast productions. Through the years, I’ve been at both ends of the production pipeline. As the interviewer, editor, and in later years, as the producer over-looking and organizing other people’s projects.
 
@@ -14,8 +17,4 @@ Daily tasks included management of a voluntarily committed editorial staff (~30 
 
 The last story I wrote for the magazine took me on a two-day trip following a student-orchestra to a music festival. I conducted hours of interviews, resulting in even more hours spent transcribing. One thing I truly enjoyed was sifting through all the recorded content, slowly piecing it together and figuring out what best fit the story I was writing. 
 
-The published work (17-18, 19-20) I oversaw can be found here: [Osqledaren](https://issuu.com/osqledaren)
-
-
-
-![Comparison](img/arg.jpg)
+[Osqledaren 2017-2020](https://issuu.com/osqledaren)

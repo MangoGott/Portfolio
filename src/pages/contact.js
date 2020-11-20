@@ -10,9 +10,9 @@ const ContactPage = () => {
             <Head title="Contact"/>
             <h1>Contact</h1>
             <div className={contactStyles.body}>
-            <p>Email me at <a href="mailto:kammerlanderrobin@gmail.com" target="_blank"> kammerlanderrobin@gmail.com</a></p>
-            <p>Read more about me on <a href="https://www.linkedin.com/in/robinkam" target="_blank">LinkedIn</a></p>
-            <p>or why not check out my photography on <a href="https://www.instagram.com/Mangogott/" target="_blank"> Instagram</a></p>
+            <p>Email me at <a href="mailto:kammerlanderrobin@gmail.com" target="_blank" rel="noopener noreferrer"> kammerlanderrobin@gmail.com</a></p>
+            <p>Read more about me on <a href="https://www.linkedin.com/in/robinkam" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p>or why not check out my photography on <a href="https://www.instagram.com/Mangogott/" target="_blank" rel="noopener noreferrer"> Instagram</a></p>
             </div>
             </Layout>
     )

@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'rk',
+    title: 'rk_',
     author: 'Robin Kammerlander'
   },
   plugins: [
@@ -46,7 +46,7 @@ module.exports = {
             options: {
                 width: 800,
                 ratio: 1.77, 
-                height: 400, 
+                height: 300, 
                 related: false,
                 noIframeBorder: true
             },
@@ -54,7 +54,7 @@ module.exports = {
             options: {
               width: 500,
               ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-              height: 400, // Optional: Overrides optional.ratio
+              height: 300, // Optional: Overrides optional.ratio
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
               noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
               urlOverrides: [
@@ -66,11 +66,12 @@ module.exports = {
             }
           },
           `gatsby-remark-responsive-iframe`,
+          `gatsby-remark-color-highlight`,
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
             options: {
-              //maxWidth: 400, 
+              maxWidth: 1024, 
               //maxHeight: 100,
               showCaptions: false,
               linkImagesToOriginal: false,

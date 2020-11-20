@@ -26,10 +26,10 @@ const AboutPage = () => {
             All these skills came to excellent use during my two years as Editor in Chief for the magazine Osqledaren. 
             </p>
             <p> 
-            When I'm not coding, I freelance on various creative projects. Most recently, I was payed to record several motion capture performances, film a remote segment i Göteborg for SweClockers, as well as cover different events.  
+            When I'm not coding, I freelance on various creative projects. Most recently, I was payed to record several motion capture performances, film a remote segment in Göteborg for SweClockers, as well as cover different events.  
             </p>
             <p> 
-            If I’ve peaked your interest, don’t hesitate, <Link to="/contact">contact me!</Link>
+            If I’ve piqued your interest, don’t hesitate, <Link to="/contact">contact me!</Link>
             </p>
             <p> 
             I’m always glad to discuss things further over a cup of coffee. 

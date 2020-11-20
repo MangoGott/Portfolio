@@ -1,3 +1,7 @@
+strong {
+    font-size: large;
+}
+
 .posts {
     list-style-type: none;
     margin: 0;
@@ -12,23 +16,41 @@
     }
 }
 
+
+
+
 .body {
 
-    margin: 1rem 0;
-    padding: 1rem;
+    //margin: 1rem 0;
+    //padding: 1rem;
     //background-color: red;
 
 
     a {
-        padding: 1rem;
+        background: black;
+        color:white;
+        display:inline;
+        font-family: courier;
+        padding:3px;
+        line-height:2em; 
+        text-transform: uppercase;
+        box-shadow: 5px 5px 0 0 lightgrey;
+        color: white;
+        padding: 1em 1em;
         text-decoration: none;
-       // border-radius: 10px 10px 10px 10px;
-       // overflow:hidden;
+        text-transform: uppercase;
+        
     }
 
     a:hover {
-        background: pink;
-    }
+        background-color: red;
+      }
+      
+      a:active {
+        box-shadow: none;
+        top: 5px;
+      }
+      
 
     h2 {
         margin-bottom: 0;
@@ -45,8 +67,8 @@
 
 .return {
     
-    margin: 1rem 0;
-    padding: 1rem;
+   // margin: 1rem 0;
+   // padding: 1rem;
 
     a {
     font-size: 2rem;
