@@ -21,7 +21,7 @@ nightmare-ish images. link to models, and code I based this on.
 Below are some of my favorite outputs. 
 
 [person2cat (github)](https://github.com/MangoGott/webcam2pix)
-[Try it here!](https://github.com/MangoGott/webcam2pix)
+[Try it here!](https://mangogott.github.io/webcam2pix/)
 
 ***
 
