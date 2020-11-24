@@ -64,10 +64,57 @@ const ProjectsPage = () => {
                                       <p>{edge.node.excerpt}</p>  
                                       
                                       <div className={blogStyles.categories}>
-                                          {edge.node.frontmatter.categories.map((category) => {
-                                              return (
-                                                <p>{category}</p>
-                                              )
+                                          {edge.node.frontmatter.categories.map((category,index) => {
+                                                
+                                                if(category=='react.js'){
+                                                  return(
+                                                    <p key={index} className={category} style={{backgroundColor: "#61dbfb"}}>{category}</p>
+                                                  )
+                                                }
+                                                if(category=='gatsby.js'){
+                                                  return(
+                                                    <p key={index} className={category} style={{backgroundColor: "#663399"}}>{category}</p>
+                                                  )
+                                                }
+                                                if(category=='graphQL'){
+                                                  return(
+                                                    <p key={index} className={category} style={{backgroundColor: "#e535ab"}}>{category}</p>
+                                                  )
+                                                }
+                                                if(category=='unity'){
+                                                  return(
+                                                    <p key={index} className={category} style={{backgroundColor: "#808080"}}>{category}</p>
+                                                  )
+                                                }
+                                                if(category=='vue.js'){
+                                                  return(
+                                                    <p key={index} className={category} style={{backgroundColor: "#41B883"}}>{category}</p>
+                                                  )
+                                                }
+                                                if(category=='mongoDB'){
+                                                  return(
+                                                    <p key={index} className={category} style={{backgroundColor: "#589636"}}>{category}</p>
+                                                  )
+                                                }
+                                                if(category=='C#'){
+                                                  return(
+                                                    <p key={index} className={category} style={{backgroundColor: "#000080"}}>{category}</p>
+                                                  )
+                                                }
+                                                if(category=='machine-learning'){
+                                                  return(
+                                                    <p key={index} className={category} style={{backgroundColor: "#ffa500"}}>{category}</p>
+                                                  )
+                                                }
+                                                if(category=='android'){
+                                                  return(
+                                                    <p key={index} className={category} style={{backgroundColor: "#a4c639"}}>{category}</p>
+                                                  )
+                                                }
+                                                else
+                                                return(
+                                                <p key={index} className={category}>{category}</p>
+                                                )
                                            })}
 
                                       </div>

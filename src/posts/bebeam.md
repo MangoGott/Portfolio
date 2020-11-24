@@ -2,7 +2,7 @@
 title: "beBeam"
 date: "22/10/2019"
 featuredImage: img/bebeam/beamert.jpg
-categories: ["C#", "unity","AR", "mobile dev"]
+categories: ["C#", "unity","AR"]
 ---
 
 **beBeam is an AR (augmented reality) game where your objective is to lead a light beam to hit a target. You do this by placing mirrors and reflecting it in the real world.**

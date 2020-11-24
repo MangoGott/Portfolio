@@ -2,7 +2,7 @@
 title: "Zephyrus"
 date: "22/10/2019"
 featuredImage: img/zephyrus/enemy.png
-categories: ["unity","C#","mobile dev", "android"]
+categories: ["unity","C#","android"]
 ---
 **Zephyrus is a mobile card-based role playing game. Set in a science fantasy themed world, the player explores the solar system recruiting party members and collecting cards to increase their power. This was a prototype developed during the game design course at KTH.**
 

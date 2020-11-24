@@ -9,4 +9,4 @@ categories: ["react.js","gatsby.js","backend","frontend", "graphQL"]
 
 After doing some research I concluded that I would use the React.js based framework Gatsby, a static progressive web app generator. In other terms: you’re site loads REALLY fast. On top of that, I made use of GraphQL (as opposed to REST), a more declarative and intuitive way to fetch data. With such a small dataset it really didn’t matter, but I saw this as an opportunity to learn something new. The main strength is the way you can tailor fetches, thus avoiding over-fetching. As for every project entry, I used markdown files to easily write every entry. Simple! It did however require a bunch of gatsby plugins to extend the capabilities of what the media markdown files could include. 
 
-[Visit Portfolio]()
+[Portfolio (Github)](https://github.com/MangoGott/Portfolio/tree/local_portfolio)

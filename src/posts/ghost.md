@@ -2,7 +2,7 @@
 title: "GhostHuntAR"
 date: "10/03/2018"
 featuredImage: img/ghost/ghost2.png
-categories: ["unity","C#","AR", "mobile dev"]
+categories: ["unity","C#","AR"]
 ---
 **GhostHuntAR is a smartphone game prototype application developed during the course Multimodal Interaction and Interfaces. The game is played using a smartphone and stereo headphones. The aim for the game is to find and destroy the ghosts that surround the player.**
 
@@ -13,6 +13,8 @@ The player can't physically run from the ghosts, or escape from them, but can de
 ## The making of GhostHuntAR
 The ghosts were designed, created and animated using Blender. In order to access the smartphone camera in an efficient way, Vuforia was used. The Vuforia tool used was the AR camera. However, the tracking of the ghosts used purely sensory data from the smartphone and not Vuforia's built in image tracking.
 The game was created using the game development platform Unity. A virtual empty world was created and the AR camera in the centre. 3D objects placed in view of the camera in the virtual world were viewed as augmented reality objects when playing the game. The directional movement of the AR camera was controlled by the movement of the smartphone, using real time sensory data from the phone.
+
+[GhostHuntAR (Github)](https://github.com/GhostHuntAR/ghosthuntar-vuforia)
 
 ***
 

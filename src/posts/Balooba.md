@@ -1,13 +1,13 @@
 ---
 title: "Balooba"
 date: "04/11/2019"
-featuredImage: img/cool.jpg
+featuredImage: img/balooba/balooba.png
 categories: ["react.js","mongoDB","backend","frontend"]
 ---
 
-**Untitled web application for Film Lovers​ — Built in R​eact.j**
+**A web application for Film Lovers​ — Built in R​eact.js**
 
-A web app where users could create and save lists of movies. All data was fetched from The Movie Database (TMDb) API together with MongoDB for saving the users information.
+A web app where users could create and save lists of movies. All data was fetched from The Movie Database (TMDb) API as JSON objects. This data together with the userdata was stored using MongoDB. 
 
 [Balooba - React.js (Github)](https://github.com/MangoGott/FilmApp_React.js)
 
