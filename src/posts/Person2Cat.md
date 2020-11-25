@@ -1,6 +1,6 @@
 ---
 title: "Person2Cat"
-date: "20/11/2020"
+date: "2020/11/20"
 featuredImage: img/cat/test.png
 categories: ["machine-learning", "ml5.js","p5.js", "javascript"]
 ---

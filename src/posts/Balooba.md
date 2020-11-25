@@ -1,6 +1,6 @@
 ---
 title: "Balooba"
-date: "04/11/2019"
+date: "2019/11/04"
 featuredImage: img/balooba/balooba.png
 categories: ["react.js","mongoDB","backend","frontend"]
 ---

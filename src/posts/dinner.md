@@ -1,6 +1,6 @@
 ---
 title: "Dinner Planner"
-date: "04/11/2019"
+date: "2019/11/04"
 featuredImage: img/dinner/screen.png
 categories: ["vue.js","javascript","backend","frontend"]
 ---

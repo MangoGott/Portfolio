@@ -1,6 +1,6 @@
 ---
 title: "Master’s Thesis​"
-date: "22/06/2020"
+date: "2020/06/22"
 featuredImage: img/exjobb/mocapscene.png
 categories: ["unity","C#","motion capture","VR"]
 ---

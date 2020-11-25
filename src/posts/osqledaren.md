@@ -1,6 +1,6 @@
 ---
 title: "Editor In Chief​"
-date: "22/05/2020"
+date: "2020/05/22"
 featuredImage: img/osqledaren/ol.png
 categories: ["project management", "writing", "editing", "design"]
 ---

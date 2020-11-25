@@ -1,6 +1,6 @@
 ---
 title: "This Portfolio!​"
-date: "12/10/2020"
+date: "2020/10/12"
 featuredImage: img/profile.jpg
 categories: ["react.js","gatsby.js","backend","frontend", "graphQL"]
 ---

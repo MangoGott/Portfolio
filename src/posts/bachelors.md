@@ -1,6 +1,6 @@
 ---
 title: "Bachelor's Thesis"
-date: "20/03/2016"
+date: "2016/03/20"
 featuredImage: img/kex/kex.png
 categories: ["machine-learning","python"]
 ---

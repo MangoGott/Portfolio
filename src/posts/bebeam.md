@@ -1,6 +1,6 @@
 ---
 title: "beBeam"
-date: "22/10/2019"
+date: "2019/10/22"
 featuredImage: img/bebeam/beamert.jpg
 categories: ["C#", "unity","AR"]
 ---

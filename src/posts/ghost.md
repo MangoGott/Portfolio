@@ -1,6 +1,6 @@
 ---
 title: "GhostHuntAR"
-date: "10/03/2018"
+date: "2018/03/10"
 featuredImage: img/ghost/ghost2.png
 categories: ["unity","C#","AR"]
 ---
