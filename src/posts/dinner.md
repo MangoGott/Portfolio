@@ -2,7 +2,7 @@
 title: "Dinner Planner"
 date: "2019/11/04"
 featuredImage: img/dinner/screen.png
-categories: ["vue.js","javascript","backend","frontend"]
+categories: ["vue.js","javascript"]
 ---
 **A web app connected to a API where users could enter how many guests they were serving, then select different dishes and finally print out all the recipes together with the total cost.**
 

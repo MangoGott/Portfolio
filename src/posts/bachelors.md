@@ -1,5 +1,5 @@
 ---
-title: "Bachelor's Thesis"
+title: "Learning Methods Analyzed"
 date: "2016/03/20"
 featuredImage: img/kex/kex.png
 categories: ["machine-learning","python"]

@@ -1,5 +1,5 @@
 ---
-title: "Master’s Thesis​"
+title: "Virtual Acting"
 date: "2020/06/22"
 featuredImage: img/exjobb/mocapscene.png
 categories: ["unity","C#","motion capture","VR"]
