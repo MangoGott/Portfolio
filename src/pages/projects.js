@@ -36,7 +36,7 @@ const ProjectsPage = () => {
         }
       }
     `)
-    
+    //hello :)
     //console.log("HEJ MANNEN")
     //console.log(data.allMarkdownRemark.edges[0].node.frontmatter.title)
     return (
