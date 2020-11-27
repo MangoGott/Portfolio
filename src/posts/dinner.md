@@ -11,7 +11,6 @@ As practice, Dinner Planner was first constructed using vanilla ​HTML/CSS/Java
 It was a great learning experience building this app, I got to implement everything in reference to the Model-View-Controller (MVC) design patter. In short, the web app is separated into three components. The Model holds all the data, the Controller receives input from the user and modifies the data accordingly, and the View presents the data. I also got to work with a API, making fetches, handling promises and timeouts, using fetched JSON-objects to generate content on the app, and much more. 
 
 [Dinner Planner - Vue.js (Github)](https://github.com/MangoGott/DinnerPlanner_Vue.js)
-
 [Dinner Planner - No Framework (Github)](https://github.com/MangoGott/DinnerPlanner_NoFramework)
 
 ***
