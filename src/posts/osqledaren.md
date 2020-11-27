@@ -2,7 +2,7 @@
 title: "Editor In Chief​"
 date: "2020/05/22"
 featuredImage: img/osqledaren/ol.png
-categories: ["project management", "writing", "editing", "design"]
+categories: ["project management", "writing", "editing", "design", "budgeting"]
 ---
 
 **As editor-in-chief for two years, I overlooked the production of “Osqledaren”. A magazine published four times a year, 12 000 copies each edition, mainly targeted at students.**

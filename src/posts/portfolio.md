@@ -2,7 +2,7 @@
 title: "This Portfolio!​"
 date: "2020/10/12"
 featuredImage: img/profile.jpg
-categories: ["react.js","gatsby.js","backend","frontend", "graphQL"]
+categories: ["react.js","gatsby.js","graphQL"]
 ---
 
 **As a way of collecting previous projects and accomplishments I built this portfolio (yes, the one you're currently visiting).**
