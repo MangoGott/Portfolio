@@ -11,7 +11,7 @@ import blogStyles from './blog.module.scss'
 const ProjectsPage = () => {
     let data = useStaticQuery(graphql`
     query{
-        allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }
+        allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }
           ){
           edges{
             node {
