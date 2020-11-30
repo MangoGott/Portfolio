@@ -20,7 +20,7 @@ I'm aware that the model was not meant for human inputs, but I saw this project 
 
 [Nightmare Cats (github)](https://github.com/MangoGott/webcam2pix)
 
-[Try it here!](https://mangogott.github.io/NightmareCat/)
+[Try it here! (desktop required)](https://mangogott.github.io/NightmareCat/)
 
 ***
 
