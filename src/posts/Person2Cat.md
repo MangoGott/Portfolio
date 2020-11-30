@@ -18,7 +18,7 @@ Due to this being a quick hobby project, I researched the fastest way to get sta
 ## Analysis
 I'm aware that the model was not meant for human inputs, but I saw this project as a way of learning and exploring some basic machine-learning concepts. Depending on what one expected, the code still produces "usable" images. This is most likely because most mammals share a lot of common traits (two eyes, one nose, one mouth). This is why most often eyes are drawn in accordance with where the user's eyes are located. Still, most images were nightmare-inducing because they had a photorealistic quality to them, pushing them down the uncanny valley. Below are some of my favorite outputs and trials when using a model trained on human faces (note the black and white contrast filter instead of edge detection).
 
-[person2cat (github)](https://github.com/MangoGott/webcam2pix)
+[Nightmare Cats (github)](https://github.com/MangoGott/webcam2pix)
 
 [Try it here!](https://mangogott.github.io/NightmareCat/)
 

@@ -12,11 +12,14 @@ The evaluation was conducted by letting two actors at a time perform a scene in 
 
 The final results implies that the VR system improves some aspects associated with embodiment in comparison to the traditional setup. This in turn changed the way the participants performed the scenes. The majority stated that they had an easier time of portraying their characters when in VR. From the interviews conducted it seemed that the participants had a easier time playing towards the environment, as well as towards their acting partner, due to them being able to play off and react to things they could actually observe.
 
+After finishing my thesis, I was asked to continue my work and submit it to a fitting conference. As of writing this a conference paper has been submitted to IEEE VR 2021 in Lisbon, Portugal. We're still awaiting the decision, which will be made early next year. 
+
 [Master's Thesis](https://kth.diva-portal.org/smash/get/diva2:1467053/FULLTEXT01.pdf)
 
 [Conference Paper](https://drive.google.com/file/d/1Dk65YCvP4uT_Ns4e_pYCCqEUqJPjPdZx/view?usp=sharing)
 
 ***
+## Reference Material
 
 ![Comparison](img/exjobb/Comparison1.png)
 
