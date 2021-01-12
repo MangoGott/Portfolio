@@ -1,7 +1,6 @@
 //Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Baumans&family=Permanent+Marker&display=swap');
 
-
 //Font Variables 
 $permanent-marker: 'Permanent Marker', cursive;
 $baumans: 'Baumans', cursive;  
@@ -12,10 +11,10 @@ $baumans: 'Baumans', cursive;
     font-family: 'Roboto Mono', monospace; 
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background-color: rgb(245, 245, 245);
-    box-shadow: 0 50vh 0 50vh rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 50vh 0 50vh rgb(255, 255, 255);
 }
-
 .content {
     padding-top: 1rem;
+    max-width: 100%
 }
